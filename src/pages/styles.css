@@ -1,0 +1,24 @@
+.table {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.table th:first-child,
+.table td:first-child {
+    background-color: #f2f2f2;
+}
+
+.table td,
+.table th {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
